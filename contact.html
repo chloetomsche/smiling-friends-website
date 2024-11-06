@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.typekit.net/smx2lgn.css">
+        <style>
+        body {
+            font-family: 'Nunito';font-size: 18px;
+        }
+        </style>
+        <title>Phone Call Button</title>
+        <style>
+          .button-container {
+            position: relative;  
+            top: 125px;
+            left: 700px;         
+            height: 200px;            
+            width: 100%;               
+          }
+      
+          .phone-button {
+            display: inline-flex;         
+            align-items: center;           
+            justify-content: center;       
+            width: 60px;                  
+            height: 60px;
+            background-color: black;     
+            border: 2px solid white;
+            border-radius: 50%;           
+            cursor: pointer;
+            padding: 0;         
+            position: absolute;           /* Changed to absolute positioning */
+            top: 50px;                   /* Adjust the position */
+            left: 200px;                 /* Adjust the position */
+            z-index: 10;                 /* Ensure it's on top of other elements */
+            
+          }
+      
+          .phone-button img.button-icon {
+            width: 40px;                   /* Size of the image */
+            height: 40px;                  /* Size of the image */
+            object-fit: contain;           /* Ensures the image scales correctly */
+          }
+
+          .phone-button:hover {
+            background-color:#272635;   /* Change to a different color on hover */
+             transform: scale(1.1);       /* Slightly enlarge the button on hover */
+        }
+        </style>
+
+<title>Email Button</title>
+<style>
+  .button-containertwo{
+    position: relative;  
+    top: 70px;
+    left: 225px;         
+    height: 200px;            
+    width: 100%;               
+  }
+
+  .email-button {
+    display: inline-flex;         
+    align-items: center;           
+    justify-content: center;       
+    width: 60px;                  
+    height: 60px;
+    background-color: black;     
+    border: 2px solid white;
+    border-radius: 50%;           
+    cursor: pointer;
+    padding: 0;         
+    position: absolute;           /* Changed to absolute positioning */
+    top: -100px;                   /* Adjust the position */
+    left: 200px;                 /* Adjust the position */
+    z-index: 10;                 /* Ensure it's on top of other elements */
+    
+  }
+
+  .email-button img.button-icon {
+    width: 40px;                   /* Size of the image */
+    height: 40px;                  /* Size of the image */
+    object-fit: contain;           /* Ensures the image scales correctly */
+  }
+
+  .email-button:hover {
+    background-color: #272635;   /* Change to a different color on hover */
+     transform: scale(1.1);       /* Slightly enlarge the button on hover */
+}
+
+</style>
+      
+        <title>Colorful Text</title>
+        <style>
+       .color1 { color: #FFF689; }
+       .color2 { color: #F696FF; }
+       .color3 { color: #FF6666; }
+       .color4 { color: #8CE85F }
+       .color5 { color: #47D9FF; }
+       .space { margin-right: 30px; }
+       .letter-spacing { letter-spacing: -8px; } 
+       .outline {
+        text-shadow: 
+        -2px -2px 0 black,  /* Top left */
+        2px -2px 0 black,   /* Top right */
+        -2px 2px 0 black,   /* Bottom left */
+        2px 2px 0 black,    /* Bottom right */
+        -2px 0 0 black,     /* Left */
+        2px 0 0 black,      /* Right */
+        0 -2px 0 black,     /* Top */
+        0 2px 0 black;      /* Bottom */
+    }
+     </style>
+    </head>
+   
+    <nav class="navbar">
+        <a class="home" href="index.html">Home</a>
+        <a class="reviews" href="reviews.html">Reviews</a>
+        <a class="about" href="about.html">About</a>
+        <a class= "contact" href="contact.html">Contact</a>
+</nav>
+
+<div class="contactus">
+    <p class="letter-spacing">
+    <span class="outline color1">C</span>
+    <span class="outline color2">o</span>
+    <span class="outline color3">n</span>
+    <span class="outline color4">t</span>
+    <span class="outline color5">a</span>
+    <span class="outline color1">c</span>
+    <span class="outline color2">t</span>
+    <span class="space outline color3"></span>
+    <span class="outline color3">U</span>
+    <span class="outline color4">s</span>
+    <span class="outline color5">!</span>
+   
+    </p>
+  </div>
+  
+  <div class="button-container">
+    <a href="tel:+1234567890" class="phone-button">
+      <img src="/css/images/phone.png" alt="Phone Icon" class="button-icon">  <!-- Replace with your phone icon path -->
+    </a>
+  </div>
+
+  <div class="button-containertwo">
+    <a href="mailto:tomsc027@umn.edu?subject=In Need of a Smile :D" class="email-button">
+      <img src="/css/images/mail.png" alt="Mail Icon" class="button-icon">  <!-- Replace with your phone icon path -->
+    </a>
+  </div>
+
+    <div class="mrboss">
+    <img src="/css/images/mrboss.png" alt="mr boss" width="200">
+    </div>
+
+<div class="forward">
+    <p>Looking forward to hear from you!</p>
+</div>
+
+<div class="trademark">
+    <p style="color: white;">&#169; Mr. Boss &#x2122; 2024. All Rights Reserved. </p>
+    </div>
+      
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <title>Add JavaScript to HTML</title>
+        <script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.typekit.net/smx2lgn.css">
+      
+        <style>
+        body {
+            font-family: 'Nunito';font-size: 18px;
+        }
+        </style>
+         <link rel="stylesheet" href="https://use.typekit.net/smx2lgn.css">
+      
+         <style>
+            .learnmore {
+              font-size: 30px;
+            }
+          </style>
+        <title>Colorful Text</title>
+        <style>
+       .color1 { color: #FFF689; }
+       .color2 { color: #F696FF; }
+       .color3 { color: #FF6666; }
+       .color4 { color: #8CE85F }
+       .color5 { color: #47D9FF; }
+       .space { margin-right: 30px; }
+       .letter-spacing { letter-spacing: -8px; } 
+       .outline {
+        text-shadow: 
+        -2px -2px 0 black,  /* Top left */
+        2px -2px 0 black,   /* Top right */
+        -2px 2px 0 black,   /* Bottom left */
+        2px 2px 0 black,    /* Bottom right */
+        -2px 0 0 black,     /* Left */
+        2px 0 0 black,      /* Right */
+        0 -2px 0 black,     /* Top */
+        0 2px 0 black;      /* Bottom */
+    }
+     </style>
+    </head>
+ 
+    <nav class="navbar">
+        <a class="home" href="index.html">Home</a>
+        <a class="reviews" href="reviews.html">Reviews</a>
+        <a class="about" href="about.html">About</a>
+        <a class= "contact" href="contact.html">Contact</a>
+</nav>
+    
+<div class="aboutus">
+    <p class="letter-spacing">
+    <span class="outline color1">A</span>
+    <span class="outline color2">b</span>
+    <span class="outline color3">0</span>
+    <span class="outline color4">u</span>
+    <span class="outline color5">t</span>
+    <span class="space outline color1"></span>
+    <span class="outline color1">u</span>
+    <span class="outline color2">s</span>
+  </div>
+
+<div class="aboutinfo">
+  <p>Hello! I'm Mr. Boss from Smiling Friends Inc., and let me tell you a bit about what we do here! You see, we are a highly specialized company dedicated to spreading happiness! Our mission is simple: when someone is feeling down, we send in one of our highly trained employees—like Pim or Charlie—to cheer them up and put a smile on their face. It doesn’t matter if they’re dealing with minor sadness or a life-crisis meltdown, we’re there.
+
+  Now, it may not always be easy, but smiling is our business, and business is booming! So if you or someone you know needs a little joy in their life, just call Smiling Friends Inc. and we’ll make sure to brighten up your day!</p>
+</div>
+
+<div class="teamnaction">
+    <p>Check out our team in action!</p>
+</div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="/css/images/halloweensf.png" style="width:100%">
+      <div class="text">Halloween at Smiling Friends Inc.</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="/css/images/halloweenmrboss.png" style="width:100%">
+      <div class="text">Mr. Boss's costume</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="/css/images/shrimppimchar.png" style="width:100%">
+      <div class="text">Pim, Charlie, and Shrimp</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="/css/images/pimchardjspit.jpg" style="width:100%">
+      <div class="text">Pim, Charlie, and Dj Spit</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="/css/images/allanonplane.png" style="width:100%">
+        <div class="text">Allan chasing after Dj Spit on helicopter</div>
+      </div>
+  
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+<title>Fun Facts About Us</title>
+    <style>
+
+        .fun-facts-container {
+            max-width: 800px;
+            margin-left: 300px;
+            margin-top: 200px;
+            padding-bottom: 5px;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .fun-facts-container p{
+            margin-top: 30px;
+        }
+
+        p {
+            color: white;
+            margin-bottom: 30px;
+            padding:0;
+        }
+
+        .fact-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .fact-buttons button {
+            border: none;
+            color: black;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-top: 50px;
+        }
+
+        .fact-buttons button:hover {
+            background-color: darkgray;
+        }
+
+        .fun-fact {
+            font-size: 18px;
+            color: #555;
+            display: none;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: black;
+            margin: 10px 0;
+        }
+
+        .fun-fact.active {
+            display: block;
+        }
+
+        /* Styling for images and icons */
+        .fun-fact img, .fun-fact i {
+            max-width: 100px;
+            margin-bottom: 15px;
+        }
+
+        .fun-fact i {
+            font-size: 50px;
+            color: #3498db;
+        }
+    </style>
+
+
+<div class="fun-facts-container">
+    <p class="learnmore">Learn More About Us :D</p>
+
+    <!-- Buttons to reveal facts -->
+    <div class="fact-buttons">
+        <button onclick="showFact(1)">Fact 1</button>
+        <button onclick="showFact(2)">Fact 2</button>
+        <button onclick="showFact(3)">Fact 3</button>
+    </div>
+
+    <!-- Fun fact content with images and icons -->
+    <div id="fact1" class="fun-fact">
+        <div class="tenor-gif-embed" data-postid="13942426314442894388" data-share-method="host" data-aspect-ratio="1.77632" data-width="100%"><a href="https://tenor.com/view/jason-smiling-friends-screaming-shrivel-dying-gif-13942426314442894388">Jason Smiling Friends GIF</a>from <a href="https://tenor.com/search/jason-gifs">Jason GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <p>Mr.Boss has a 18 year old son.</p>
+    </div>
+    <div id="fact2" class="fun-fact">
+        <div class="tenor-gif-embed" data-postid="36557806173756256" data-share-method="host" data-aspect-ratio="1.76596" data-width="100%"><a href="https://tenor.com/view/handshake-glep-smiling-friends-shaking-hands-good-job-gif-36557806173756256">Handshake Glep GIF</a>from <a href="https://tenor.com/search/handshake-gifs">Handshake GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <p>Glep was born on 7/9/329, making him 1695 years old and, thus, the oldest Smiling Friend.</p>
+    </div>
+    <div id="fact3" class="fun-fact">
+        <div class="tenor-gif-embed" data-postid="10921009947340864978" data-share-method="host" data-aspect-ratio="1.79104" data-width="100%"><a href="https://tenor.com/view/smiling-friends-adult-swim-smiling-friends-smiling-friends-spamish-pim-pimling-smiling-friends-pim-gif-10921009947340864978">Smiling Friends Adult Swim Smiling Friends GIF</a>from <a href="https://tenor.com/search/smiling+friends-gifs">Smiling Friends GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <p>Pim speaks some Spammish.</p>
+    </div>
+</div>
+
+<script>
+    function showFact(factNumber) {
+        // Hide all facts
+        const facts = document.querySelectorAll('.fun-fact');
+        facts.forEach(fact => fact.classList.remove('active'));
+
+        // Show the selected fact
+        const selectedFact = document.getElementById('fact' + factNumber);
+        selectedFact.classList.add('active');
+    }
+</script>
+
+<!-- Include Font Awesome for icons (optional) -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<div class="trademark">
+<p style="color: white;">&#169; Mr. Boss &#x2122; 2024. All Rights Reserved. </p>
+</div>
+        
+</html>
